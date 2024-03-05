@@ -1,5 +1,4 @@
 export default function getFullResponseFromAPI(success) {
-  // Return a Promise that can either resolve or reject based on the 'success' parameter.
   return new Promise((resolve, reject) => {
     if (success) {
       // If 'success' is true, resolve the Promise with a success object.
